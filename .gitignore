@@ -3,3 +3,4 @@ oidc/
 terra-*
 environments/eks/*
 .terrafrom.lock.hcl
+terraform.tfstate
