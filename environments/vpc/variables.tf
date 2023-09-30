@@ -10,16 +10,17 @@ variable "project" {
   default     = "vpc-demo"
 }
 
-variable "cluster_name" {
+/*variable "cluster_name" {
   type        = string
   description = "Kubernetes cluster name"
   default     = "eks-demo1"
 }
+*/
 
 variable "availability_zones" {
   type        = list(string)
   description = "Availability zones"
-  default     = ["us-west-2a", "us-west-2b", "us-west-2c"]
+  default     = ["us-east-2a", "us-east-2b", "us-east-2c"]
 }
 
 variable "private_subnets" {

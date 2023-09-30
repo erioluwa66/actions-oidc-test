@@ -4,3 +4,6 @@ terra-*
 environments/eks/*
 .terrafrom.lock.hcl
 terraform.tfstate
+terraform-action
+terraform-action.pub
+
