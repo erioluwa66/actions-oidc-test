@@ -6,7 +6,7 @@ variable "vpc_cidr" {
 
 variable "project" {
   type        = string
-  description = "Project name"
+  description = "Project Mariam"
   default     = "vpc-demo"
 }
 
