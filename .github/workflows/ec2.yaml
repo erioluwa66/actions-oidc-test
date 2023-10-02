@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  call-vpc-workflow:
+  call-ec2-workflow:
     uses: ./.github/workflows/deploy.yaml
     with:
       work-dir: "environments/ec2"
